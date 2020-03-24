@@ -197,7 +197,7 @@ You should now know enough to do [Exercise 1r](ex1)
 
 libtls is designed to be able to handle asynchronous io through non-blocking descriptors and an event notification mechanism such as poll (or the various kernel event handlers). We'll look at poll(2) here since it's largely portable.
 
-Ad you may have guessed, TLS_WANT_POLLIN and TLS_WANT_POLLOUT relate directly to poll, and the poll events flags *POLLIN* and POLLOUT*
+As you may have guessed, TLS_WANT_POLLIN and TLS_WANT_POLLOUT relate directly to poll, and the poll events flags *POLLIN* and POLLOUT*
 
 Let's revisit tls_read and tls_write:
 
